@@ -1,4 +1,4 @@
-/* :root {
+:root {
     --black: #1d1d1d;
     --dark-3: #6d6d6d;
     --gray-4: #e0e0e0;
@@ -85,6 +85,6 @@
   }
   .icon-rtl {
     padding-right: 25px;
-    background: url("../../public/assests/send.jpg") no-repeat right;
+    background: url("../../public/assests/footer/send.jpg") no-repeat right;
     background-size: 40px;
-  } */
+  }
