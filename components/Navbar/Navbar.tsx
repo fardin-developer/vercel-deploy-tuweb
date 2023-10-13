@@ -1,6 +1,5 @@
 import './navbar.css'
-import React from 'react';
-import MenuIcon from '@mui/icons-material/Menu';
+
 import { cursorTo } from 'readline';
 
 const Navbar = () => {
@@ -34,7 +33,6 @@ const Navbar = () => {
 
                 </div>
                 <div className="menu">
-                        <MenuIcon style={{ fontSize: 40,cursor: "pointer" }} />
                 </div>
 
             </div>
