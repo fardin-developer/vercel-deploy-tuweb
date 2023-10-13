@@ -1,0 +1,72 @@
+/*dekstop mode*/
+.nav {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    box-shadow: 0px 15px 15px -15px #111;    
+}
+.menu{
+    display: none;
+}
+
+.left {
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.left img {
+    width: 50px;
+    margin-right:10px ;
+}
+
+
+.logoText .heading {
+    font-size:2rem;
+
+}
+
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+    margin-right: 3rem;
+}
+
+.right li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .logoText .heading {
+        font-size:1.3rem;
+    
+    }
+    .logoText .subHeading {
+        font-size:1.1rem;
+    
+    }
+
+    .right {
+        display: none
+    }
+
+    .menu{
+        display: block;
+        margin-right: 3rem;
+
+    }
+
+
+}
