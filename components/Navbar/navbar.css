@@ -55,6 +55,8 @@ a {
 }
 
 
+
+
 @media only screen and (max-width: 768px) {
     .logoText .heading {
         font-size: 1.3rem;
@@ -79,9 +81,10 @@ a {
     .menuList {
         position: fixed;
         background-color: rgb(193, 196, 190);
-        width: 40vw;
+        width: 60vw;
         padding: 0 20px 30px 20px;
         top: 6rem;
+        bottom: 0;
         right: 0px;
         border-radius: 1rem;
         
