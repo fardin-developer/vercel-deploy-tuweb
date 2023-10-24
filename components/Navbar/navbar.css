@@ -6,12 +6,13 @@
     align-items: center;
     height: 7rem;
     left: 0%;
-    box-shadow: 0px 15px 15px -15px #111;    
+    box-shadow: 0px 15px 15px -15px #111;
     position: fixed;
     width: 100vw;
     z-index: 10000000;
 }
-.menu{
+
+.menu {
     display: none;
 }
 
@@ -21,16 +22,17 @@
     align-items: center;
     justify-content: center;
     left: 0%;
-    
+
 }
+
 .left img {
     width: 50px;
-    margin-right:10px ;
+    margin-right: 10px;
 }
 
 
 .logoText .heading {
-    font-size:2rem;
+    font-size: 2rem;
 
 }
 
@@ -55,22 +57,43 @@ a {
 
 @media only screen and (max-width: 768px) {
     .logoText .heading {
-        font-size:1.3rem;
-    
+        font-size: 1.3rem;
+
     }
+
     .logoText .subHeading {
-        font-size:1.1rem;
-    
+        font-size: 1.1rem;
+
     }
 
     .right {
         display: none
     }
 
-    .menu{
+    .menu {
         display: block;
         margin-right: 3rem;
 
+    }
+
+    .menuList {
+        position: fixed;
+        background-color: rgb(193, 196, 190);
+        width: 40vw;
+        padding: 0 20px 30px 20px;
+        top: 6rem;
+        right: 0px;
+        border-radius: 1rem;
+        
+    }
+
+    li {
+        margin-top: 20px;
+        border-bottom: 1px solid rgb(73, 72, 72);
+        
+    }
+    li a{
+        font-weight:600
     }
 
 

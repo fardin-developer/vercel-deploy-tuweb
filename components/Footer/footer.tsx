@@ -1,44 +1,39 @@
 import React from "react";
 import "./footerstyle.css";
-// import GitHubIcon from "@mui/icons-material/GitHub";
-// import InstagramIcon from "@mui/icons-material/Instagram";
-// import LinkedInIcon from "@mui/icons-material/LinkedIn";
-// import SendIcon from "@mui/icons-material/Send";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import SendIcon from "@mui/icons-material/Send";
 
-const myStyle = () => {
-  const myStyle = {
-    backgroundImage:
-      "url('https://media.geeksforgeeks.org/wp-content/uploads/rk.png')",
-    height: "100vh",
-    marginTop: "-70px",
-    fontSize: "50px",
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-  };
-};
 
 const Footer = () => {
   return (
     <>
+      <div className="topFooter">
+        <div className="line"><hr /></div>
+        <div className="middle">
+          <a href="/" className="logo">
+            <img src="../assests/footer/gdsc_logo.png" alt="Logo" style={{ scale: 1.5 }} />
+          </a>
+        </div>
+
+
+      </div>
       <section className="footer-five">
         <div
           style={{
             backgroundImage: "url('https://www.gdsc-uit.org/_next/static/image/src/assets/images/decor-light.ad6149bd9ae88855a8048f5ca7f8284b.png')",
-            height: "100vh",
+            height: "40vh",
             backgroundSize: "contain",
             backgroundRepeat: "repeat",
           }}
         >
-          <a href="/home" className="logo">
-            <img src="../assests/footer/gdsc_logo.png" alt="Logo" style={{scale: 1.5}}/>
-          </a>
           <p className="text-center">
-            <b>Google Developer Student Club</b>
+            Google Developer Student Club
           </p>
-          <p> Tezpur University</p>
+          <p style={{ "fontSize": "medium" }}> Tezpur University</p>
           <br />
-          Get Connected
-          <br />
+          <p style={{ "fontSize": "medium" }}>Get Connected</p>
           <div className="input-icons">
             <input className="input icon-rtl" placeholder="Enter Email" />
           </div>
@@ -46,15 +41,15 @@ const Footer = () => {
             <ul>
               <li>
                 <span>
-                  <h2>Follow Us On</h2>
+                  <p style={{ "fontSize": "large" }}>Follow Us On</p>
                 </span>
               </li>
               <br />
               <li>
                 <div>
                   <a href="https://instagram.com/gdsc_tezu?igshid=MzRlODBiNWFlZA==">
-                    {/* <InstagramIcon /> */}
-                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png" alt="instagram-new--v1"/>
+                    <InstagramIcon />
+                    {/* <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/instagram-new--v1.png" alt="instagram-new--v1"/> */}
                   </a>
                 </div>
               </li>
@@ -64,9 +59,9 @@ const Footer = () => {
                     href="https://www.linkedin.com/company/gdsc-tezpur-university/mycompany/"
                     target="_blank"
                   >
-                    {/* <LinkedInIcon /> */}
+                    <LinkedInIcon />
 
-                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="linkedin"/>
+                    {/* <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="linkedin"/> */}
                   </a>
                 </div>
               </li>
@@ -76,9 +71,8 @@ const Footer = () => {
                     href="https://github.com/afk-ankit/gdsc-tu"
                     target="_blank"
                   >
-                    {/* <GitHubIcon />
-                    <img src="" alt="" /> */}
-                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/>
+                    <GitHubIcon />
+                    {/* <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/> */}
                   </a>
                 </div>
               </li>
@@ -90,7 +84,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-12">
                 <div className="copyright text-center">
-                  <p className="text">
+                  <p className="text" style={{ "fontSize": "small", "fontWeight": "600" }}>
                     Copyright © 2023 GDSC TU. All Rights Reserved
                   </p>
                 </div>
