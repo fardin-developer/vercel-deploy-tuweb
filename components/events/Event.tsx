@@ -39,7 +39,9 @@ const Sliders = () => {
                 {
                     imageData.map((item, index) => (
                         <SwiperSlide key={index}>
+                            <div className="eventImg">
                             <img src={item.imgUrl} alt={item.title} />
+                            </div>
                         </SwiperSlide>
                     ))
                 }

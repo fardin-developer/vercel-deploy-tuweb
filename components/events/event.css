@@ -15,6 +15,7 @@
   height: 47rem;
   padding: 2rem 0;
   position: relative;
+
 }
 
 .swiper-slide {
@@ -102,3 +103,10 @@
 .swiper-pagination .swiper-pagination-bullet-active {
   background: #6a59ff;
 } 
+
+
+/* @media only screen and (min-width: 600px) {
+  .eventImg img{
+    box-shadow: 2px -5px 955px 3px #111;
+  }
+} */

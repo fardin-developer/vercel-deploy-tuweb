@@ -23,9 +23,16 @@ body html{
     margin: 50px auto 200px auto;
 }
 .gdsc-image{
-    height: fit-content;
-    width: fit-content;
-    margin: 80px auto;
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.gdsc-image img{
+    width: 25vw;
+    height: auto;
+    margin:  auto;
 
 }
 .container{
@@ -47,3 +54,4 @@ body html{
     text-align: center;
     font-weight: 100;
 }
+

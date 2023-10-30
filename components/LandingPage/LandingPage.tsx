@@ -10,7 +10,7 @@ function LandingPage() {
 
         <div className="background-image">
             <Gdsc/>
-            <Tezpur></Tezpur>
+            {/* <Tezpur></Tezpur> */}
             {/* <Content/> */}
         </div>
 

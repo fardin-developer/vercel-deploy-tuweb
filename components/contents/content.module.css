@@ -10,10 +10,12 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    padding: 5vmax 4vmax;
+
 }
 
 .header h1 {
-    font-size: 5.5vmax;
+    font-size: 3.5vmax;
     font-weight: 500;
     margin-bottom: 2vmax;
 }
@@ -41,6 +43,9 @@
 .image {
     width: 60%;
     text-align: center;
+    /* box-shadow: 0px 30px 30px 20px #111; */
+
+    
 }
 
 .image img {
@@ -55,6 +60,12 @@
     flex-direction: column;
     width: 100vmx;
 }
+.block .heads img{
+
+    width: 50px;
+  height: 50px;
+}
+
 
 .heads {
     width: 100%;
