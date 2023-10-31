@@ -54,7 +54,7 @@ const Navbar = () => {
 
                     
                 </div>
-                <div className='menuList' style={{display:menu===0?'none':"block"}}>
+                <div className={`menuList ${menu ? 'active' : ''}`}>
                 <li><a href="/">Home</a></li>
                     <li><a href="/">Team</a></li>
                     <li><a href="/">Explore Us</a></li>

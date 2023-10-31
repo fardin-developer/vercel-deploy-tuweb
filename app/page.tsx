@@ -13,7 +13,7 @@ export default function Home() {
       <Content />
       <Event />
       <Teams />
-      <Footer/>
+      {/* <Footer/> */}
     </main>
   );
 }

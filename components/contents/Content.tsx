@@ -1,8 +1,11 @@
 import { contentData } from "./data";
 import Styles from "./content.module.css";
+import Head from "next/head";
 
 const Content = () => {
     return (
+
+        <>
         <div className={Styles.container}>
             <div className={Styles.header}>
                 <h1>We Have</h1>
@@ -18,9 +21,9 @@ const Content = () => {
                         <div className={Styles.block}>
                             <div className={Styles.heads}>
                                 <img src="/assests/content/google.gif" alt="google"/>
-                                <div className={Styles.side}>
+                                <div className={Styles.side} style={{fontFamily:"Baloo Bhai 2"}}>
                                     <h2>{item.title}</h2>
-                                    <h4>150+</h4>
+                                    <h4 >150+</h4>
                                 </div>
                             </div>
                             <p className={Styles.desc}>{item.description}</p>
@@ -30,6 +33,8 @@ const Content = () => {
             }
 
         </div>
+        </>
+
     )
 }
 

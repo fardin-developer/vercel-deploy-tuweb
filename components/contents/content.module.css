@@ -59,11 +59,14 @@
     justify-content: center;
     flex-direction: column;
     width: 100vmx;
+    font-family: "Baloo Bhai";
 }
 .block .heads img{
 
     width: 50px;
   height: 50px;
+  margin-top: 8%;
+ 
 }
 
 
